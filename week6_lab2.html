@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <meta name="description" content="CWeb 1010 CSS Flexbox">
+    <meta name="keywords" content="CSS Flexbox">
+    <meta name="author" content="Ryan Young">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+<style>
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: red;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 200px;
+  margin: 100px;
+  text-align: center;
+  line-height: 200px;
+  font-size: 60px;
+}
+</style>
+</head>
+<body>
+<h1>Flexible Boxes</h1>
+
+<div class="flex-container">
+  <div>This</div>
+  <div>Is</div>
+  <div>A</div>  
+  <div>Flex</div>
+  <div>Box</div>
+  <div>It </div>  
+  <div>is</div>
+  <div>fun</div>
+</div>
+
+<p>Try to resize the browser window.</p>
+<p>A container with "flex-wrap: nowrap;" will never wrap its items.</p>
+<p><strong>Note:</strong> Flexbox is not supported in Internet Explorer 10 or earlier versions.</p>
+
+</body>
+</html>
+
+
