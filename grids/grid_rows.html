@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<meta name="Discription" content="CWEB1010">
+<meta name="Keywords" content="HTML CSS">
+<meta name="Author" content="Ryan Young">
+<meta name="Viewport" content="width=device-width, inital-scale=1.0">
+<style>
+
+html{background-color: #191970;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 100px 300px;
+  grid-gap: 10px;
+  background-color: #808080;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(52, 64, 235, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+@media only screen and (max-width: 600px) {
+body {
+background-color: blue;
+}
+</style>
+</head>
+<body>
+
+<h1>The grid-template-rows Property</h1>
+
+
+<div class="grid-container">
+  <div class="item1">1</div>
+  <div class="item2">2</div>
+  <div class="item3">3</div>  
+  <div class="item4">4</div>
+  <div class="item5">5</div>
+  <div class="item6">6</div>
+  <div class="item7">7</div>
+  <div class="item8">8</div>
+</div>
+
+</body>
+</html>

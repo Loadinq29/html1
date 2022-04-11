@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+html{background-color:#696969;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: #FFFAF0;
+  padding: 10px;
+
+}
+
+.grid-container > div {
+  background-color: rgba(225, 165, 0, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+body {
+background-color: blue;
+}
+</style>
+</head>
+<body>
+
+<h1>Grid Container</h1>
+
+
+<div class="grid-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>
+  <div>7</div>
+  <div>8</div>
+</div>
+
+
+</body>
+</html>
+
+
